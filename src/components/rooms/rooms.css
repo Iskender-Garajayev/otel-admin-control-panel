@@ -1,0 +1,79 @@
+.container {
+  height: 150vh;
+}
+
+.card-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.card {
+  width: 140px;
+  height: 150px;
+  background: lightgreen;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.card span {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  font-size: 45px;
+  color: blue;
+}
+
+.card-menu {
+  display: flex;
+  margin-left: 115px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.card-add {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+
+/* red card */
+
+.card-red {
+  width: 140px;
+  height: 150px;
+  background: lightcoral;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.card-red span {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  font-size: 45px;
+  color: rgb(28, 109, 43);
+}
+
+/* yellow card */
+.card-yellow {
+  width: 140px;
+  height: 150px;
+  background: rgb(240, 219, 128);
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.card-yellow span {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  font-size: 45px;
+  color: rgb(98, 76, 134);
+}

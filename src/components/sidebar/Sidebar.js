@@ -5,6 +5,10 @@ import BedOutlinedIcon from "@mui/icons-material/BedOutlined";
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 import Brightness3OutlinedIcon from "@mui/icons-material/Brightness3Outlined";
 import { Link } from "react-router-dom";
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+import MenuBookOutlinedIcon from '@mui/icons-material/MenuBookOutlined';
+import CalculateOutlinedIcon from '@mui/icons-material/CalculateOutlined';
+import FaceOutlinedIcon from '@mui/icons-material/FaceOutlined';
 
 const Sidebar = () => {
   return (
@@ -16,29 +20,38 @@ const Sidebar = () => {
         <ul>
           <li>
             <Link to="/" state={{ textDecoration: "none" }}>
-              <span>Main Page</span>
+            <HomeOutlinedIcon className="home-icon"/>
+              <span> HOME</span>
             </Link>
           </li>
           <li>
             <Link to="/rooms" state={{ textDecoration: "none" }}>
-              <BedOutlinedIcon />
-              <span>Rooms</span>
+              <BedOutlinedIcon className="home-icon" />
+              <span> Rooms</span>
             </Link>
           </li>
           <li>
             <Link to="/rezerv" state={{ textDecoration: "none" }}>
-              <span>Rezervation</span>
+            <MenuBookOutlinedIcon className="home-icon"/>
+              <span> Rezervation</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="/gests" state={{ textDecoration: "none" }}>
+            <FaceOutlinedIcon className="home-icon"/>
+              <span> Gests</span>
             </Link>
           </li>
           <li>
           <Link to="/accounting" state={{ textDecoration: "none" }}>
-              <span>Accounting</span>
+          <CalculateOutlinedIcon className="home-icon" />
+              <span> Accounting</span>
             </Link>
           </li>
           <li>
           <Link to="/personals" state={{ textDecoration: "none" }}>
-            <BadgeOutlinedIcon />
-              <span>Personals</span>
+            <BadgeOutlinedIcon className="home-icon" />
+              <span> Personals</span>
             </Link>
           </li>
         </ul>

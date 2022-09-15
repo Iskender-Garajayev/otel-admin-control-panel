@@ -33,11 +33,11 @@
 }
 
 .card-add {
-  display: flex;
+  /* display: flex; */
   /* justify-content: center; */
   /* align-items: center; */
   margin-top: 15px;
-  margin-left: auto;
+  margin-left: 59px;
   margin-right: auto;
   cursor: pointer;
 }

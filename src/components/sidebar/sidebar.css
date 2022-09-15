@@ -56,6 +56,9 @@ margin-right: 25px;
   }
 
 
-.center span{
-
+.center ul li{
+ padding-top: 10px;
+ font-size: 20px;
+ letter-spacing: 1px;
+ text-transform: uppercase;
 }

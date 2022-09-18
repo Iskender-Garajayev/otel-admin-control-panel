@@ -43,17 +43,21 @@
 }
 
 .light{
-/* background: lightcyan; */
-/* width: 15px; */
-/* height: 15px; */
-/* border: 0.5px solid; */
-/* border-radius: 4px; */
 margin-right: 25px;
+cursor: pointer;
+}
+
+.light:hover{
+  color: lightyellow;
+  text-shadow: lightgray !important;
 }
 
 .dark{
   color: rgb(23, 24, 24);
+  cursor: pointer;
+
   }
+
 
 
 .center ul li{

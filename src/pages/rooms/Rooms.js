@@ -1,6 +1,6 @@
 import React from "react";
-import Sidebar from "../sidebar/Sidebar";
-import Navbar from "../navbar/Navbar";
+import Sidebar from "../../components/sidebar/Sidebar";
+import Navbar from "../../components/navbar/Navbar";
 import './rooms.css'
 import MoreVertOutlinedIcon from '@mui/icons-material/MoreVertOutlined';
 import AddOutlinedIcon from '@mui/icons-material/AddOutlined';

@@ -9,6 +9,7 @@ import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import MenuBookOutlinedIcon from '@mui/icons-material/MenuBookOutlined';
 import CalculateOutlinedIcon from '@mui/icons-material/CalculateOutlined';
 import FaceOutlinedIcon from '@mui/icons-material/FaceOutlined';
+import NoteAltOutlinedIcon from '@mui/icons-material/NoteAltOutlined';
 
 const Sidebar = () => {
   return (
@@ -52,6 +53,12 @@ const Sidebar = () => {
           <Link to="/personals" state={{ textDecoration: "none" }}>
             <BadgeOutlinedIcon className="home-icon" />
               <span> Personals</span>
+            </Link>
+            </li>
+            <li>
+          <Link to="/note" state={{ textDecoration: "none" }}>
+            <NoteAltOutlinedIcon className="home-icon" />
+              <span> Note</span>
             </Link>
           </li>
         </ul>

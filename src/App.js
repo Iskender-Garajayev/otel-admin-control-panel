@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './components/home/Home'
-import Rooms from './components/rooms/Rooms'
+import Rooms from './pages/rooms/Rooms'
 import {
   BrowserRouter,
   Routes,

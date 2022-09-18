@@ -1,20 +1,19 @@
 import React from 'react'
-import './countment.css'
 import Sidebar from '../../components/sidebar/Sidebar'
 import Navbar from '../../components/navbar/Navbar'
 
-const countment = () => {
+const Rezervation = () => {
   return (
     <div className='home'>
     <Sidebar/>
     <div className="homecontainer">
       <Navbar/>
       <div className="containet">
-        Accounting 
+        Rezervation 
       </div>
     </div>
   </div>
   )
 }
 
-export default countment
+export default Rezervation

@@ -1,0 +1,24 @@
+.form{
+/* background: #000; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.input-form input{
+  background: transparent;
+  outline: none;
+}
+
+.button{
+  width: 40px;
+  height: 30px;
+  border-radius: 20%;
+  background: rgba(35, 118, 226, 0.863);
+}

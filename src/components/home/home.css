@@ -5,3 +5,23 @@
 .homecontainer{
   flex: 9;
 }
+
+.home-card{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.home-accaunt-card{
+  background: rgb(156, 139, 139);
+  width: 300px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 4px 4px 4px 4px;
+}
+
+.home-accaunt-card:hover{
+  box-shadow: 10px 10px #fff;
+}

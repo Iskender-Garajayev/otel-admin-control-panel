@@ -12,15 +12,17 @@ const Rezervation = () => {
         <div className="containet">
           <div className="form">
             <div className="input-form">
-
               <input type="text" placeholder=" ID Number" pattern="[0-9]" />
-            </div> <br />
+            </div>{" "}
+            <br />
             <div className="input-form">
               <input type="text" placeholder=" Name  " />
-            </div><br />
+            </div>
+            <br />
             <div className="input-form">
               <input type="text" placeholder=" Surname " />
-            </div><br />
+            </div>
+            <br />
             <div className="input-form">
               <input
                 type="tel"
@@ -30,7 +32,9 @@ const Rezervation = () => {
                 pattern="[0-9]"
               />
             </div>
-            <button className="button" >Submite</button>
+            <div className="button">
+            <button>Submite</button>
+            </div>
           </div>
         </div>
       </div>

@@ -1,14 +1,14 @@
 .form{
 /* background: #000; */
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  height: 70vh;  
 }
 
 .input-form{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: transparent;
 }
 
 .input-form input{
@@ -17,8 +17,14 @@
 }
 
 .button{
-  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 80px;
   height: 30px;
-  border-radius: 20%;
+  border-radius: 10px;
   background: rgba(35, 118, 226, 0.863);
 }

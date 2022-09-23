@@ -11,7 +11,20 @@ const Home = () => {
       <div className="homecontainer">
         <Navbar/>
         <div className="containet">
-          Home 
+          <div className="home-card">
+            <div className="home-accaunt-card">
+              <h1>amount</h1>
+              <span>icon</span>
+            </div>
+            <div className="home-accaunt-card">
+              <h1>amount</h1>
+              <span>icon</span>
+            </div>
+            <div className="home-accaunt-card">
+              <h1>amount</h1>
+              <span>icon</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

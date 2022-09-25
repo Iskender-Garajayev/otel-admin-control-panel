@@ -1,8 +1,9 @@
-.container {
-  margin: auto;
-  padding-bottom: auto;
+.card-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* align-items: center; */
 }
-
 .card-row {
   display: flex;
   justify-content: space-evenly;

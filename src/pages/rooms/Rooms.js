@@ -12,7 +12,8 @@ const Rooms = () => {
       <Sidebar />
       <div className="homecontainer">
         <Navbar />
-        <div className="container">
+        <div className="card-container">
+
           <div class="card-row">
             <div className=" card" >
               <MoreVertOutlinedIcon className="card-menu" />
@@ -45,6 +46,7 @@ const Rooms = () => {
               <AddOutlinedIcon className="card-add"/>
             </div>
           </div>
+
           <div class="card-row">
             <div className=" card-red" >
               <MoreVertOutlinedIcon className="card-menu" />

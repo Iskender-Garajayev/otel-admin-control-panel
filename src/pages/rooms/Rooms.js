@@ -12,7 +12,7 @@ const Rooms = () => {
       <Sidebar />
       <div className="homecontainer">
         <Navbar />
-        <div className="containet">
+        <div className="container">
           <div class="card-row">
             <div className=" card" >
               <MoreVertOutlinedIcon className="card-menu" />

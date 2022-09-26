@@ -20,44 +20,44 @@ const Sidebar = () => {
       <div className="center">
         <ul>
           <li>
-            <Link to="/" state={{ textDecoration: "none" }}>
-            <HomeOutlinedIcon className="home-icon"/>
+            <Link className="side-nav" to="/" state={{ textDecoration: "none" }}>
+            <HomeOutlinedIcon className="side-nav-icon"/>
               <span> HOME</span>
             </Link>
           </li>
           <li>
-            <Link to="/rooms" state={{ textDecoration: "none" }}>
-              <BedOutlinedIcon className="home-icon" />
+            <Link className="side-nav" to="/rooms" state={{ textDecoration: "none" }}>
+              <BedOutlinedIcon className="side-nav-icon" />
               <span> Rooms</span>
             </Link>
           </li>
           <li>
-            <Link to="/rezerv" state={{ textDecoration: "none" }}>
-            <MenuBookOutlinedIcon className="home-icon"/>
+            <Link className="side-nav" to="/rezerv" state={{ textDecoration: "none" }}>
+            <MenuBookOutlinedIcon className="side-nav-icon"/>
               <span> Rezervation</span>
             </Link>
           </li>
           <li>
-            <Link to="/gests" state={{ textDecoration: "none" }}>
-            <FaceOutlinedIcon className="home-icon"/>
+            <Link className="side-nav" to="/gests" state={{ textDecoration: "none" }}>
+            <FaceOutlinedIcon className="side-nav-icon"/>
               <span> Gests</span>
             </Link>
           </li>
           <li>
-          <Link to="/accounting" state={{ textDecoration: "none" }}>
-          <CalculateOutlinedIcon className="home-icon" />
+          <Link className="side-nav" to="/accounting" state={{ textDecoration: "none" }}>
+          <CalculateOutlinedIcon className="side-nav-icon" />
               <span> Accounting</span>
             </Link>
           </li>
           <li>
-          <Link to="/personals" state={{ textDecoration: "none" }}>
-            <BadgeOutlinedIcon className="home-icon" />
+          <Link className="side-nav" to="/personals" state={{ textDecoration: "none" }}>
+            <BadgeOutlinedIcon className="side-nav-icon" />
               <span> Personals</span>
             </Link>
             </li>
             <li>
-          <Link to="/note" state={{ textDecoration: "none" }}>
-            <NoteAltOutlinedIcon className="home-icon" />
+          <Link className="side-nav" to="/note" state={{ textDecoration: "none" }}>
+            <NoteAltOutlinedIcon className="side-nav-icon" />
               <span> Note</span>
             </Link>
           </li>

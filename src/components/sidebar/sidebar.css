@@ -17,6 +17,16 @@
   
 }
 
+.side-nav{
+  text-decoration: none ;
+  color: rgb(48, 45, 45);
+}
+
+.side-nav-icon{
+  color: orange;
+  font-size: 40px;
+}
+
 .center{
   display: flex;
   justify-content: center;

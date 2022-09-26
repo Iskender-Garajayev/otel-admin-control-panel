@@ -6,6 +6,8 @@
   flex: 9;
 }
 
+
+
 .home-card{
 display: flex;
 justify-content: space-evenly;
@@ -13,7 +15,12 @@ align-items: center;
 }
 
 .home-accaunt-card{
-  background: rgb(156, 139, 139);
+  background: rgba(206, 233, 157, 0.568);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.3px);
+  -webkit-backdrop-filter: blur(5.3px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   width: 300px;
   height: 150px;
   display: flex;
@@ -23,5 +30,5 @@ align-items: center;
 }
 
 .home-accaunt-card:hover{
-  box-shadow: 10px 10px #fff;
+  
 }

@@ -13,7 +13,7 @@ const Gests = () => {
           <div>
             {userdata.map(userdata=>(
               <div>
-              <span>{userdata.room_number}</span>
+              <span> {userdata.room_number}</span>
               <span> {userdata.user_id}</span>
               <span> {userdata.name}</span>
               <span> {userdata.surname}</span>

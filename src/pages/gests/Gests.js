@@ -3,6 +3,7 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import userdata from "../../components/userdata/userdata";
 import Table from "react-bootstrap/Table";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Gests = () => {
   return (
@@ -11,7 +12,7 @@ const Gests = () => {
       <div className="homecontainer">
         <Navbar />
         <div className="gest-containet">
-          <Table striped bordered hover>
+          <Table >
           <thead>
                     <tr>
                       <th>Room No</th>
@@ -20,6 +21,9 @@ const Gests = () => {
                       <th>Username</th>
                       <th>Phone Number</th>
                       <th>Price</th>
+                      <th>Payement Method</th>
+                      <th>Entering Date</th>
+                      <th>Expired Date</th>
                     </tr>
                   </thead>
             {userdata.map((userdata) => (
@@ -32,6 +36,7 @@ const Gests = () => {
                       <td> {userdata.surname}</td>
                       <td> {userdata.phone_number}</td>
                       <td> {userdata.price} TL</td>
+                      <td> Cash </td>
                     </tr>
                   </tbody>
               </>

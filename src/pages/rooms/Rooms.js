@@ -15,7 +15,7 @@ const Rooms = () => {
         <Navbar />
         <div className="card-container">
           <Container className=" align-items-center" >
-            <Row class="card-row">
+            <Row className="card-row">
               <Col>
                 <Card className=" card">
                   <MoreVertOutlinedIcon className="card-menu" />
@@ -60,7 +60,7 @@ const Rooms = () => {
               </Col>
             </Row>
 
-            <Row class="card-row">
+            <Row className="card-row">
               <Col>
                 <Card className=" card">
                   
@@ -107,7 +107,7 @@ const Rooms = () => {
               </Col>
             </Row>
 
-            <Row class="card-row">
+            <Row className="card-row">
               <Col>
                 <Card className=" card">
                   <MoreVertOutlinedIcon className="card-menu" />

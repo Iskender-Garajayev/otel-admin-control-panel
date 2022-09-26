@@ -4,6 +4,7 @@ import Navbar from "../../components/navbar/Navbar";
 import './rooms.css'
 import MoreVertOutlinedIcon from '@mui/icons-material/MoreVertOutlined';
 import AddOutlinedIcon from '@mui/icons-material/AddOutlined';
+import { Container, Row, Col } from "react-bootstrap";
 
 
 const Rooms = () => {
@@ -13,8 +14,49 @@ const Rooms = () => {
       <div className="homecontainer">
         <Navbar />
         <div className="card-container">
+        <Container>
+      <Row>
+       <Col className=" card"><MoreVertOutlinedIcon className="card-menu" />
+              <span>01</span>
+              <AddOutlinedIcon className="card-add"/></Col>
+       <Col className=" card"><MoreVertOutlinedIcon className="card-menu" />
+              <span>01</span>
+              <AddOutlinedIcon className="card-add"/></Col>
+       <Col className=" card"><MoreVertOutlinedIcon className="card-menu" />
+              <span>01</span>
+              <AddOutlinedIcon className="card-add"/></Col>
+       <Col className=" card"><MoreVertOutlinedIcon className="card-menu" />
+              <span>01</span>
+              <AddOutlinedIcon className="card-add"/></Col>
+       <Col className=" card"><MoreVertOutlinedIcon className="card-menu" />
+              <span>01</span>
+              <AddOutlinedIcon className="card-add"/></Col>
+       <Col className=" card"><MoreVertOutlinedIcon className="card-menu" />
+              <span>01</span>
+              <AddOutlinedIcon className="card-add"/></Col>
+      </Row>
 
-          <div class="card-row">
+      <Row>
+        <Col xs={6} md={4}>
+          xs=6 md=4
+        </Col>
+        <Col xs={6} md={4}>
+          xs=6 md=4
+        </Col>
+        <Col xs={6} md={4}>
+          xs=6 md=4
+        </Col>
+      </Row>
+
+      {/* Columns are always 50% wide, on mobile and desktop */}
+      <Row>
+        <Col xs={6}>xs=6</Col>
+        <Col xs={6}>xs=6</Col>
+      </Row>
+    </Container>
+
+
+          {/* <div class="card-row">
             <div className=" card" >
               <MoreVertOutlinedIcon className="card-menu" />
               <span>01</span>
@@ -111,7 +153,7 @@ const Rooms = () => {
               <span>18</span>
               <AddOutlinedIcon className="card-add"/>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

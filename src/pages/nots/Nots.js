@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from '../../components/sidebar/Sidebar'
 import Navbar from '../../components/navbar/Navbar'
+import NoteList from './notelist/NoteList'
 
 const Nots = () => {
   return (
@@ -9,7 +10,7 @@ const Nots = () => {
     <div className="homecontainer">
       <Navbar/>
       <div className="containet">
-        Nots 
+        <NoteList/>
       </div>
     </div>
   </div>

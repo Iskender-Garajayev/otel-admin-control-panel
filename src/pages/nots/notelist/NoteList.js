@@ -1,9 +1,14 @@
 import React from 'react'
+import Notes from './Notes'
+import './notelist.css'
 
 const NoteList = () => {
   return (
-    <div>
-      
+    <div className='notlist-containet'>
+      <Notes/>
+      <Notes/>
+      <Notes/>
+      <Notes/> 
     </div>
   )
 }

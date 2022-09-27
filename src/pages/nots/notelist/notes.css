@@ -1,0 +1,22 @@
+.note-card{
+    height: 250px;
+    width: 220px;
+    background: rgba(212, 221, 158, 0.644);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.445);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(255, 255, 255, 0.445);
+    margin-left: 25px;
+}
+
+
+.notes-date{
+    margin-left: 110px;
+    margin-top: 185px;
+}
+
+.notes-icon{
+    margin-left: 110px;
+    margin-top: 185px;
+}

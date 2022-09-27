@@ -1,0 +1,12 @@
+.notlist-containet{
+    /* display: flex;
+    justify-content: start; */
+
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    
+}

@@ -11,10 +11,15 @@ import Countment from './pages/countment/Countment';
 import Gests from './pages/gests/Gests';
 import Personal from './pages/personal/Personal';
 import Nots from './pages/nots/Nots';
+import { useContext } from 'react';
+import { DarkModeContext } from './components/context/darkModeContext';
 
 function App() {
+
+  const { darkMode } = useContext(DarkModeContext)
+
   return (
-    <div className="App">
+    <div className={darkMode ? "app-dark" : "app"}>
      <BrowserRouter>
     <Routes>
       <Route path='/' >

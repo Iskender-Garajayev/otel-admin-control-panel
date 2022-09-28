@@ -24,7 +24,7 @@ const Gests = () => {
               <span> {userdata.price}TL </span>
               </div>
 ======= */}
-          <Table >
+          <Table className="paleBlueRows" >
           <thead>
                     <tr>
                       <th>Room No</th>

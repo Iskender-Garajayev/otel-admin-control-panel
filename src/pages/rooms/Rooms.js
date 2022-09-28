@@ -14,8 +14,8 @@ const Rooms = () => {
         <Navbar />
         <div className="card-container">
 
-          <div class="card-row">
-            <div className="card" >
+          <div className="card-row">
+            <div className="card-green" >
               <MoreVertOutlinedIcon className="card-menu" />
               <span>01</span>
               <AddOutlinedIcon className="card-add"/>
@@ -47,7 +47,7 @@ const Rooms = () => {
             </div>
           </div>
 
-          <div class="card-row">
+          <div className="card-row">
             <div className=" card-red" >
               <MoreVertOutlinedIcon className="card-menu" />
               <span>07</span>
@@ -80,13 +80,13 @@ const Rooms = () => {
             </div>
           </div>
 
-          <div class="card-row">
+          <div className="card-row">
             <div className=" card-red" >
               <MoreVertOutlinedIcon className="card-menu" />
               <span>13</span>
               <AddOutlinedIcon className="card-add"/>
             </div>
-            <div className=" card" >
+            <div className="card" >
               <MoreVertOutlinedIcon className="card-menu" />
               <span>14</span>
               <AddOutlinedIcon className="card-add"/>
@@ -114,15 +114,7 @@ const Rooms = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
-};
-
-export default Rooms;
-
-
-
-
+      
        {/* <Container className=" align-items-center" >
             <Row className="card-row">
               <Col>
@@ -261,3 +253,11 @@ export default Rooms;
               </Col>
             </Row>
           </Container> */}
+    </div>
+  );
+};
+
+export default Rooms;
+
+
+

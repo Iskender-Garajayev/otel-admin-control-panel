@@ -11,7 +11,7 @@ justify-content: center;
   padding-top: 20px ;
 }
 
-.card{
+.card {
   width: 140px;
   height: 150px;
   background: lightgreen;
@@ -54,6 +54,14 @@ justify-content: center;
   border-radius: 10px;
 }
 
+.card-green {
+  width: 140px;
+  height: 150px;
+  background: lightgreen;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
 .card-red span {
   display: flex;
   justify-content: center;
@@ -77,4 +85,11 @@ justify-content: center;
   /* align-items: center; */
   font-size: 45px;
   color: rgb(98, 76, 134);
+}
+.card-green span {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  font-size: 45px;
+  color: rgba(120, 136, 224, 0.671);
 }
